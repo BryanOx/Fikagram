@@ -1,38 +1,41 @@
+body {
+  margin: 0px;
+  padding: 0px;
+}
 .App {
+  font-family: Segoe Script;
   text-align: center;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+#Titulo .Texto {
+  font-size: 28pt;
+  font-weight:bolder;
+  color: #757575;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+.pie-pag {
+  padding-top: .5rem;
+  padding-bottom: .5rem;
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+.recursosIMG {
+  height: 2rem;
+  cursor: pointer;
 }
 
-.App-link {
-  color: #61dafb;
+.card {
+  background-color: #e6d2d2;
+  margin:0 auto;
+  float: none;
+  margin-bottom: 10px;
+  margin-top: 30px;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.card-title {
+  font-size: 28pt;
+  font-weight:bolder;
+}
+
+.card-body {
+  background-color: #e6d2d2;
 }
